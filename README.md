@@ -28,6 +28,8 @@ AFTER 1715744138010
 BAD_REQUEST
 BEFORE INTERNAL_SERVER_ERROR 1715744138011
 AFTER INTERNAL_SERVER_ERROR 1715744138010
+
+
 Output.txt:
 No output 
 No output
@@ -39,10 +41,15 @@ Min: 10.17, Max: 23.72, Mean: 18.2075
 Min: 15.22, Max: 15.22, Mean: 15.22 
 Min: 0.0 , Max: 0.0 , Mean: 0.0
 Min: 10.17, Max: 23.72, Mean: 19.203333
+
+
+
 Assumptions:
 1. Timestamp will come in an ascending sorted way.
 2. Log Type can be any utf-8 supported string with a maximum length of 100.
 3. . Severity will be positive non zero floating-point number with no limit.
+
+
 Expectations
-.1 Program need to be fast enough to handle al functionalities.
+1. Program need to be fast enough to handle al functionalities.
 2. Severity results must need to be calculated with a precision of 10E-6. 3. Only use the standard libraries your programming language provides.
